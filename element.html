@@ -2,11 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- 通知IE使用最高級別edge開啟，但使用者電腦只有IE9的話就會以IE9開啟 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- width=device-width：指定瀏覽器頁面的寬度與裝置同寬度。
+        initial-scale=1.0：指定畫面初始縮放比例為 100% -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>認識元件</title>
 </head>
 <body>
-    我是元件
+    <h4>段落</h4>
+    <p>我是一個段落</p>
+    <p>跟上面是不一樣的段落<p>
+    <br>
+    <p>我與上面空一行段落</p>
+    <hr>
+    <h4>標籤</h4>
+    Lorem, ipsum dolor sit <span style="color:red">amet</span> consectetur adipisicing elit. Repellendus eligendi iusto blanditiis neque laborum rerum non consequuntur nesciunt et nemo cupiditate sit quasi doloribus ad voluptas nostrum earum, natus repudiandae?
+    Nostrum velit eaque omnis quisquam. Eos tenetur fugiat ratione debitis, reprehenderit, numquam expedita recusandae quibusdam quidem repudiandae dolores sequi, error sunt adipisci nihil reiciendis tempora! Eveniet odit in asperiores saepe?
+    <hr>
+    <h4>格式化段落</h4>
+    <pre> 
+        GeeksforGeeks 
+        A Computer   Science Portal   For Geeks 
+    </pre> 
+    <h4>input</h4>
+    文字:<input type="text">
+    輸入數字:<input type="number" step="10" min="0"max="1000"> <!-- step:跳動區間 -->
+    輸入日期:<input type="date" min="2020-04-01" max="2022-04-30"  value="2020-04-20">
+    輸入時間:<input type="time">
+    按鈕:<input type="button">
+    range:<input type="range">
+    color:<input type="color">
+    file:<input type="file">
 </body>
 </html>
